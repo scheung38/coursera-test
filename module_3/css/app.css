@@ -1,0 +1,167 @@
+#fadeIn {
+  -vendor-animation-duration: 1s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite; }
+
+body {
+  font-family: "Open Sans", "sans-serif";
+  background-color: #FFF; }
+
+h1, h3 {
+  text-align: center; }
+
+p {
+  color: #999999;
+  margin: 0 15px 15px 15px;
+  padding: 0 20px 20px 20px;
+  text-align: justify; }
+
+h3 {
+  color: #444444;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  font-size: 1em;
+  height: 100px;
+  margin: 0;
+  line-height: 60px;
+  font-weight: 100; }
+
+a {
+  color: #444444;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none; }
+
+a:hover {
+  color: #999999;
+  text-decoration: none; }
+
+h1#our-menu {
+  margin: 70px 0;
+  font-weight: 100;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: .3em; }
+
+.back-to-top {
+  text-align: center; }
+
+div.container.border {
+  margin-bottom: 50px;
+  background-color: #ECFBFA;
+  z-index: 1;
+  text-align: justify; }
+
+.border:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+  cursor: hand;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+
+span#chicken-logo > i.fa.fa-genderless,
+span#beef-logo > i.fa.fa-genderless,
+span#sushi-logo > i.fa.fa-genderless {
+  font-size: 1rem; }
+
+span#chicken-logo > i.fa.fa-genderless {
+  color: #FFF; }
+
+span#beef-logo > i.fa.fa-genderless {
+  color: #830300; }
+
+span#sushi-logo > i.fa.fa-genderless {
+  color: #328832; }
+
+@media (min-width: 544px) {
+  .container {
+    max-width: 100%; } }
+
+.gradient-nav, .navbar {
+  background: #F09819;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EDDE5D, #F09819);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(right, #EDDE5D, #F09819);
+  background: linear-gradient(to left, #EDDE5D, #F09819);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.margin-padding, a.nav-link.disabled, a.nav-link, hr, a.navbar-brand, button.navbar-toggler {
+  padding: 0;
+  margin: 0; }
+
+footer {
+  margin-top: 80px;
+  color: #FFF; }
+
+ul {
+  list-style-type: none;
+  padding: 40px 100px 20px; }
+
+#section-1 {
+  background-color: #333333;
+  height: 250px;
+  margin: auto; }
+
+li#name a {
+  color: #FFF; }
+
+li#name a, li#name a:visited, li#name a:hover {
+  text-decoration: none; }
+
+#about {
+  list-style-type: none; }
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 600;
+  padding: 15px 0; }
+
+#section-2 {
+  background-color: #444444;
+  height: 250px; }
+
+i.fa.fa-twitter {
+  color: #FFF; }
+
+#nav-style {
+  padding: 0; }
+
+.navbar {
+  height: 36px;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); }
+
+div.nav {
+  padding: 0;
+  margin: 0; }
+
+div.nav.navbar-nav {
+  position: relative;
+  z-index: 1;
+  background-color: #EDDE5D;
+  margin-top: 20px;
+  padding: 0; }
+
+a.nav-link.disabled, a.nav-link, hr {
+  text-align: center; }
+
+a.navbar-brand {
+  color: #FFF;
+  font-weight: 600;
+  letter-spacing: .3em;
+  line-height: 1rem;
+  text-transform: uppercase; }
+
+i.fa.fa-genderless {
+  color: #EDDE5D;
+  font-size: 30px;
+  margin-left: 20px;
+  line-height: 1rem; }
+
+i.fa.fa-bars {
+  color: #FFF; }
